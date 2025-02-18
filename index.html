@@ -4,9 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bikewatching</title>
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="map.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
 </head>
 <body>
   <h1>🚴🏼‍♀️ Bikewatching</h1>
-  <p>Visualizing Biketracking in Boston</p>
+  <p>Visualizing bike traffic in Boston</p>
+  <div id="map">
+    <svg></svg>
+  </div>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+  <script src="map.js"></script>
 </body>
 </html>
